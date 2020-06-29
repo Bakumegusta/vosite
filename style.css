@@ -12,7 +12,14 @@ p{
 }
 
 #logo{
-  margin-bottom: 20px;
+  position: fixed;
+  margin-bottom: 25px;
+  width: 50%;
+  padding-bottom: 10px;
+
+}
+#logo img{
+  width: 30%;
 }
 .navbar-brand{
   font-family: roboto;
@@ -83,4 +90,14 @@ footer{
 }
 .baku{
   margin-top: 150px;
+}
+
+/*mobile*/
+@media only screen and (max-width: 600px) {
+  #logo img{
+    width: 100%;
+  }
+}
+.thumbnail p{
+  text-align: center;
 }
